@@ -1,0 +1,65 @@
+nohup: ignoring input
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+not expected line:
+
+not expected line:
+
+not expected line:
+
+not expected line:
+
+not expected line:
+
+{'epoch': 0, 'train_loss': '0.481932', 'train_acc': '77.747775'}
+{'validate_loss': '0.388980', 'validate_acc': '84.171256'}
+{'epoch': 1, 'train_loss': '0.311120', 'train_acc': '87.773777'}
+{'validate_loss': '0.384450', 'validate_acc': '84.348907'}
+{'epoch': 2, 'train_loss': '0.173465', 'train_acc': '94.254425'}
+{'validate_loss': '0.412140', 'validate_acc': '84.935157'}
+{'epoch': 3, 'train_loss': '0.157295', 'train_acc': '94.984498'}
+{'validate_loss': '0.416652', 'validate_acc': '84.828566'}
+{'epoch': 4, 'train_loss': '0.141637', 'train_acc': '95.669567'}
+{'validate_loss': '0.423148', 'validate_acc': '85.201634'}
+{'epoch': 5, 'train_loss': '0.138945', 'train_acc': '95.724572'}
+{'validate_loss': '0.427915', 'validate_acc': '84.952922'}
+{'test_acc': '93.750000', 'confuse_acc': '0.937500'}
+{'test_acc': '93.750000', 'confuse_acc': '0.937500'}
+{'test_acc': '87.500000', 'confuse_acc': '0.875000'}
+{'test_acc': '85.937500', 'confuse_acc': '0.859375'}
+{'test_acc': '82.500000', 'confuse_acc': '0.825000'}
+{'test_acc': '82.291667', 'confuse_acc': '0.822917'}
+{'test_acc': '83.035714', 'confuse_acc': '0.830357'}
+{'test_acc': '84.375000', 'confuse_acc': '0.843750'}
+{'test_acc': '83.333333', 'confuse_acc': '0.833333'}
+{'test_acc': '83.750000', 'confuse_acc': '0.837500'}
+{'test_acc': '84.090909', 'confuse_acc': '0.840909'}
+{'test_acc': '84.375000', 'confuse_acc': '0.843750'}
+{'test_acc': '85.096154', 'confuse_acc': '0.850962'}
+{'test_acc': '83.928571', 'confuse_acc': '0.839286'}
+{'test_acc': '84.166667', 'confuse_acc': '0.841667'}
+{'test_acc': '83.984375', 'confuse_acc': '0.839844'}
+{'test_acc': '84.926471', 'confuse_acc': '0.849265'}
+{'test_acc': '84.722222', 'confuse_acc': '0.847222'}
+{'test_acc': '84.539474', 'confuse_acc': '0.845395'}
+{'test_acc': '84.687500', 'confuse_acc': '0.846875'}
+{'test_acc': '85.119048', 'confuse_acc': '0.851190'}
+{'test_acc': '84.659091', 'confuse_acc': '0.846591'}
+{'test_acc': '84.782609', 'confuse_acc': '0.847826'}
+{'test_acc': '84.823848', 'confuse_acc': '0.848238'}
+prec:0.821429  recall:0.884615  F1:0.851852
+tensor([[161.,  35.],
+        [ 21., 152.]])
+一般吧，没感觉到泪点，一直觉得这种日漫太理想中二，豆瓣评分虚高
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Dumping model to file cache /tmp/jieba.cache
+Dump cache file failed.
+Traceback (most recent call last):
+  File "/home/ubuntu/.conda/envs/wangqiang_env/lib/python3.6/site-packages/jieba/__init__.py", line 154, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmpm6p_iq90' -> '/tmp/jieba.cache'
+Loading model cost 1.347 seconds.
+Prefix dict has been built successfully.
+Negative
+新海诚终于会讲一个复杂故事了，真不容易啊！彗星降临的末世情怀，穿越时空的灵之绳结，只有7秒钟记忆的鱼...星空、爱情以及所有遇见都是注定。
+Positive
